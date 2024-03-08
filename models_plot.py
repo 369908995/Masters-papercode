@@ -72,7 +72,7 @@ p=7
 
 
 xdata = yolov5s.iloc[t1:,0] #横坐标 时间是列名
-y_yolov5s=yolov5s.iloc[t1:,p]*100-0.5
+y_yolov5s=yolov5s.iloc[t1:,p]*100
 # y_yolov5s_cagn_gsconv=yolov5s_cagn_gsconv.iloc[t1:,p]*100
 # y_yolov5s_C2F_gsconv=yolov5s_C2F_gsconv.iloc[t1:,p]*100
 # y_yolov5s_C3HB_gsconv=yolov5s_C3HB_gsconv.iloc[t1:,p]*100
